@@ -20,7 +20,5 @@ jobs:
           apiKey: ${{env.apiKey}}
           apiSecret: ${{env.apiSecret}}
           testID: ${{env.testID}}
-          uploadFileCheck: ${{env.uploadFileCheck}}
-          inputStartFile: ${{env.inputStartFile}}
           continuePipeline: ${{env.continuePipeline}}
           showTailLog: ${{env.showTailLog}}
